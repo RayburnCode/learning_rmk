@@ -5,7 +5,6 @@ vendor_id = 0x4c4b
 product_id = 0x4643
 manufacturer = "Mad Mod Labs"
 chip = "rp2040"
-product_name = "68-Key Mechanical Keyboard"
 
 [matrix]
 rows = 5
@@ -25,38 +24,32 @@ rows = 5
 cols = 15
 layers = 2
 
-[layout.keymap]
-layer_0 = [
-    # Row 0: ESC, 1-0, -, =, Backspace, `
-    ["Escape", "Kc1", "Kc2", "Kc3", "Kc4", "Kc5", "Kc6", "Kc7", "Kc8", "Kc9", "Kc0", "Minus", "Equal", "Bspace", "Grave"],
-    
-    # Row 1: Tab, Q-P, [, ], \, Page Up
-    ["Tab", "Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P", "LBracket", "RBracket", "Bslash", "PgUp"],
-    
-    # Row 2: Caps Lock, A-;, ', Enter, Page Down
-    ["CapsLock", "A", "S", "D", "F", "G", "H", "J", "K", "L", "Semicolon", "Quote", "Enter", "PgDown"],
-    
-    # Row 3: Left Shift, Z-/, Right Shift, Up, Delete
-    ["LShift", "Z", "X", "C", "V", "B", "N", "M", "Comma", "Dot", "Slash", "RShift", "Up", "Delete"],
-    
-    # Row 4: Ctrl, GUI, Alt, Space, Alt, Fn, Ctrl, Left, Down, Right
-    ["LCtrl", "LGui", "LAlt", "Space", "RAlt", "Mo(1)", "RCtrl", "Left", "Down", "Right"]
-]
-
-# Function layer (activated by Fn key - Mo(1))
-layer_1 = [
-    # Row 0: Function keys
-    ["Grave", "F1", "F2", "F3", "F4", "F5", "F6", "F7", "F8", "F9", "F10", "F11", "F12", "Delete", "__"],
-    
-    # Row 1: Media controls
-    ["__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "Home"],
-    
-    # Row 2
-    ["__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "End"],
-    
-    # Row 3: Volume and brightness
-    ["__", "__", "__", "__", "__", "__", "__", "__", "VolDown", "VolUp", "Mute", "__", "BriUp", "__"],
-    
-    # Row 4
-    ["__", "__", "__", "__", "__", "__", "__", "MediaPrev", "BriDown", "MediaNext"]
+# Keymap as a 3D array: [layers][rows][cols]
+keymap = [
+    # Layer 0 - Base layer
+    [
+        # Row 0
+        ["Escape", "Kc1", "Kc2", "Kc3", "Kc4", "Kc5", "Kc6", "Kc7", "Kc8", "Kc9", "Kc0", "Minus", "Equal", "Bspace", "Grave"],
+        # Row 1
+        ["Tab", "Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P", "LBracket", "RBracket", "Bslash", "PgUp"],
+        # Row 2
+        ["CapsLock", "A", "S", "D", "F", "G", "H", "J", "K", "L", "Semicolon", "Quote", "Enter", "PgDown", "__"],
+        # Row 3
+        ["LShift", "Z", "X", "C", "V", "B", "N", "M", "Comma", "Dot", "Slash", "RShift", "Up", "Delete", "__"],
+        # Row 4
+        ["LCtrl", "LGui", "LAlt", "Space", "RAlt", "Mo(1)", "RCtrl", "Left", "Down", "Right", "__", "__", "__", "__", "__"]
+    ],
+    # Layer 1 - Function layer
+    [
+        # Row 0
+        ["Grave", "F1", "F2", "F3", "F4", "F5", "F6", "F7", "F8", "F9", "F10", "F11", "F12", "Delete", "__"],
+        # Row 1
+        ["__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "Home"],
+        # Row 2
+        ["__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "End", "__"],
+        # Row 3
+        ["__", "__", "__", "__", "__", "__", "__", "__", "VolDown", "VolUp", "Mute", "__", "BriUp", "__", "__"],
+        # Row 4
+        ["__", "__", "__", "__", "__", "__", "__", "MediaPrev", "BriDown", "MediaNext", "__", "__", "__", "__", "__"]
+    ]
 ]
