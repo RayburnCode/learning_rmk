@@ -39,6 +39,7 @@ keymap = [
         # Row 4
         ["LCtrl", "LGui", "LAlt", "Space", "RAlt", "RGui", "RCtrl", "Left", "Down", "Right", "__", "__", "__", "__", "__"]
     ],
+    ]
     # Layer 1 - Function layer
 #     [
 #         # Row 0
