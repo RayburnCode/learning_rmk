@@ -47,5 +47,5 @@ layer_0 = [
     ["LShift", "Z", "X", "C", "V", "B", "N", "M", "Comma", "Dot", "Slash", "RShift", "Up", "Delete"],
     
     # Row 4: Ctrl, GUI, Alt, Space, Alt, (empty), Ctrl, (empty x3)
-    ["LCtrl", "LGui", "LAlt", "Space", "RAlt", "Fn", "LCtrl", "Left", "Down", "Right"]
+    ["LCtrl", "LGui", "LAlt", "Space", "RAlt", "Mo(1)", "LCtrl", "Left", "Down", "Right"]
 ]
