@@ -29,27 +29,27 @@ keymap = [
     # Layer 0 - Base layer
     [
         # Row 0
-        ["Escape", "Kc1", "Kc2", "Kc3", "Kc4", "Kc5", "Kc6", "Kc7", "Kc8", "Kc9", "Kc0", "Minus", "Equal", "Bspace", "Grave"],
+        ["Escape", "Kc1", "Kc2", "Kc3", "Kc4", "Kc5", "Kc6", "Kc7", "Kc8", "Kc9", "Kc0", "Minus", "Equal", "Backspace", "Grave"],
         # Row 1
-        ["Tab", "Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P", "LBracket", "RBracket", "Bslash", "PgUp"],
+        ["Tab", "Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P", "LeftBracket", "RightBracket", "Backslash", "PgUp"],
         # Row 2
         ["CapsLock", "A", "S", "D", "F", "G", "H", "J", "K", "L", "Semicolon", "Quote", "Enter", "PgDown", "__"],
         # Row 3
         ["LShift", "Z", "X", "C", "V", "B", "N", "M", "Comma", "Dot", "Slash", "RShift", "Up", "Delete", "__"],
         # Row 4
-        ["LCtrl", "LGui", "LAlt", "Space", "RAlt", "Mo(1)", "RCtrl", "Left", "Down", "Right", "__", "__", "__", "__", "__"]
+        ["LCtrl", "LGui", "LAlt", "Space", "RAlt", "RGui", "RCtrl", "Left", "Down", "Right", "__", "__", "__", "__", "__"]
     ],
     # Layer 1 - Function layer
-    [
-        # Row 0
-        ["Grave", "F1", "F2", "F3", "F4", "F5", "F6", "F7", "F8", "F9", "F10", "F11", "F12", "Delete", "__"],
-        # Row 1
-        ["__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "Home"],
-        # Row 2
-        ["__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "End", "__"],
-        # Row 3
-        ["__", "__", "__", "__", "__", "__", "__", "__", "VolDown", "VolUp", "Mute", "__", "BriUp", "__", "__"],
-        # Row 4
-        ["__", "__", "__", "__", "__", "__", "__", "MediaPrev", "BriDown", "MediaNext", "__", "__", "__", "__", "__"]
-    ]
-]
+#     [
+#         # Row 0
+#         ["Grave", "F1", "F2", "F3", "F4", "F5", "F6", "F7", "F8", "F9", "F10", "F11", "F12", "Delete", "__"],
+#         # Row 1
+#         ["__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "Home"],
+#         # Row 2
+#         ["__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "End", "__"],
+#         # Row 3
+#         ["__", "__", "__", "__", "__", "__", "__", "__", "VolumeDown", "VolumeUp", "Mute", "__", "BriUp", "__", "__"],
+#         # Row 4
+#         ["__", "__", "__", "__", "__", "__", "__", "MediaPrev", "BriDown", "MediaNext", "__", "__", "__", "__", "__"]
+#     ]
+# ]
