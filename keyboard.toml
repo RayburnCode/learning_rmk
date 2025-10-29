@@ -30,9 +30,7 @@ rows = 5
 cols = 15
 layers = 1
 
-# Keymap directly from your QMK configuration
-[layout.keymap]
-layer_0 = [
+keymap = [
     # Row 0: ESC, 1-0, -, =, Backspace, `
     ["Escape", "Kc1", "Kc2", "Kc3", "Kc4", "Kc5", "Kc6", "Kc7", "Kc8", "Kc9", "Kc0", "Minus", "Equal", "Bspace", "Grave"],
     
