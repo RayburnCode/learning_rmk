@@ -22,7 +22,7 @@ output_pins = [
 [layout]
 rows = 5
 cols = 15
-layers = 2
+layers = 1
 
 # Keymap as a 3D array: [layers][rows][cols]
 keymap = [
@@ -38,19 +38,5 @@ keymap = [
         ["LShift", "Z", "X", "C", "V", "B", "N", "M", "Comma", "Dot", "Slash", "RShift", "Up", "Delete", "__"],
         # Row 4
         ["LCtrl", "LGui", "LAlt", "Space", "RAlt", "RGui", "RCtrl", "Left", "Down", "Right", "__", "__", "__", "__", "__"]
-    ],
     ]
-    # Layer 1 - Function layer
-#     [
-#         # Row 0
-#         ["Grave", "F1", "F2", "F3", "F4", "F5", "F6", "F7", "F8", "F9", "F10", "F11", "F12", "Delete", "__"],
-#         # Row 1
-#         ["__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "Home"],
-#         # Row 2
-#         ["__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "End", "__"],
-#         # Row 3
-#         ["__", "__", "__", "__", "__", "__", "__", "__", "VolumeDown", "VolumeUp", "Mute", "__", "BriUp", "__", "__"],
-#         # Row 4
-#         ["__", "__", "__", "__", "__", "__", "__", "MediaPrev", "BriDown", "MediaNext", "__", "__", "__", "__", "__"]
-#     ]
-# ]
+]
