@@ -7,6 +7,11 @@
 - [RMK](https://rmk.rs/index.html) for the keyboard firmware and inspiration
 - [Mad Mod labs](https://www.printables.com/model/307908-mechanical-keyboard-68-key-65/files) for the 3D printable case design
 - [Mad Mod Labs Youtube](https://www.youtube.com/watch?v=iOeYkLlq9Ds&t=628s)
+- [Keyboard Layout Editor](https://www.keyboard-layout-editor.com)
+- [Keys Kicad](https://github.com/perigoso/keyswitch-kicad-library)
+- Plate and Case Builders:
+- - [Keeb](https://plate.keeb.io)
+- - [Swillkb](http://builder.swillkb.com)
 
 ## Flashing Firmware to MCU
 
