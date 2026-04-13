@@ -21,7 +21,7 @@ col_pins = [
 [layout]
 rows = 5
 cols = 15
-layers = 1
+layers = 2
 
 keymap = [
     [
@@ -38,6 +38,14 @@ keymap = [
         ["LShift", "__", "Z", "X", "C", "V", "B", "N", "M", "Comma", "Dot", "Slash", "RShift", "Up", "Delete"],
 
         # Row 4: LCtrl=0, Win=1, Alt=2, SKIP 3+4 (Space is wide, starts col5), Space=5, SKIP 6+7+8, RAlt=9, Fn=10, RCtrl=11, Left=12, Down=13, Right=14
-        ["LCtrl", "LGui", "LAlt", "__", "__", "Space", "__", "__", "__", "RAlt", "Fn", "RCtrl", "Left", "Down", "Right"]
+        ["LCtrl", "LGui", "LAlt", "__", "__", "Space", "__", "__", "__", "RAlt", "MO(1)", "RCtrl", "Left", "Down", "Right"]
+    ],
+    [
+        # Layer 1 (Fn layer) - all transparent by default
+        ["__", "F1", "F2", "F3", "F4", "F5", "F6", "F7", "F8", "F9", "F10", "F11", "F12", "__", "__"],
+        ["__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__"],
+        ["__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__"],
+        ["__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__"],
+        ["__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__", "__"]
     ]
 ]
