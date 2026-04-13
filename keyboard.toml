@@ -25,20 +25,19 @@ layers = 1
 
 keymap = [
     [
-        # Row 0: Esc, 1-0, -, =, Backspace(wide=2 cols), `  → 15 cols
+        # Row 0: cols 0-14 (all 15 sequential)
         ["Escape", "Kc1", "Kc2", "Kc3", "Kc4", "Kc5", "Kc6", "Kc7", "Kc8", "Kc9", "Kc0", "Minus", "Equal", "Backspace", "Grave"],
 
-        # Row 1: Tab(1.5), Q-P, [, ], \(1.5), PgUp  → 15 cols
+        # Row 1: cols 0-14 (all 15 sequential)
         ["Tab", "Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P", "LeftBracket", "RightBracket", "Backslash", "PageUp"],
 
-        # Row 2: CapsLock(1.75), A-L, ;, ', Enter(2.25), PgDn  → 14 physical keys
-        # CapsLock is wide, Enter is wide — so one fewer key. Pad with __ at end
-        ["CapsLock", "A", "S", "D", "F", "G", "H", "J", "K", "L", "Semicolon", "Quote", "Enter", "PageDown", "__"],
+        # Row 2: cols 0-11, SKIP 12 (Enter is wide, occupies 12+13), Enter=col13, PgDn=col14
+        ["CapsLock", "A", "S", "D", "F", "G", "H", "J", "K", "L", "Semicolon", "Quote", "__", "Enter", "PageDown"],
 
-        # Row 3: Shift(2.25), Z-/, Shift(1.75), Up, Del → 13 physical keys, pad 2
-        ["LShift", "Z", "X", "C", "V", "B", "N", "M", "Comma", "Dot", "Slash", "RShift", "Up", "Delete", "__"],
+        # Row 3: LShift=col0 (wide, occupies 0+1), SKIP col1, Z-/=cols2-10, SKIP col11 (RShift wide occupies 11+12), RShift=col12, Up=col13, Del=col14
+        ["LShift", "__", "Z", "X", "C", "V", "B", "N", "M", "Comma", "Dot", "Slash", "RShift", "Up", "Delete"],
 
-        # Row 4: Ctrl(1.25), Win(1.25), Alt(1.25), Space(6.25), Alt, Fn, Ctrl, ←, ↓, →  → 10 physical keys, pad 5
-        ["LCtrl", "LGui", "LAlt", "Space", "RAlt", "Fn", "RCtrl", "Left", "Down", "Right", "__", "__", "__", "__", "__"]
+        # Row 4: LCtrl=0, Win=1, Alt=2, SKIP 3+4 (Space is wide, starts col5), Space=5, SKIP 6+7+8, RAlt=9, Fn=10, RCtrl=11, Left=12, Down=13, Right=14
+        ["LCtrl", "LGui", "LAlt", "__", "__", "Space", "__", "__", "__", "RAlt", "Fn", "RCtrl", "Left", "Down", "Right"]
     ]
 ]
